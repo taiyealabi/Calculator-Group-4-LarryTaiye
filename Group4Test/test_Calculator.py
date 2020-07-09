@@ -41,13 +41,13 @@ class MyTestCase(unittest.TestCase):
             self.assertEqual(self.calculator.result, float(row['Result']))         
             
    def test_square(self):
-    test_data = CsvReader("Group4Test/Group4Data/square.csv").data
-    for row in test_data:
-        result = float(row['Result'])
-        self.assertEqual(self.row['Value 1'], result)
-        self.assertEqual(self.calculator.result, result)  
+       test_data = CsvReader("Group4Test/Group4Data/square.csv").data
+       for row in test_data:
+           result = float(row['Result'])
+           self.assertEqual(self.row['Value 1'], result)
+           self.assertEqual(self.calculator.result, result)  
         
-    # Old values = def test_sqrt(self):
+    #Old values = def test_sqrt(self):
     def test_sqrt(self):
         test_data = CsvReader("Group4Test/Group4Data/squareroot.csv").data
         for row in test_data:
