@@ -3,7 +3,7 @@ from Calculator.Addition import addition
 from Calculator.Multiplication import multiplication
 from Calculator.Division import division
 #from Calculator.square import square
-from Calculator.squareroot import squareroot
+#from Calculator.squareroot import squareroot
 
 import math
 
